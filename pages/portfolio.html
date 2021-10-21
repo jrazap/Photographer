@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/cam.png" type="image/x-icon">
+    <title>CKP | Portfolio</title>
+  </head>
+  <body style="background-color: #000">
+    <div class="portfolio">
+      <header id="header-demo">
+        <page-header></page-header>
+      </header>
+      <div class="portfolio-content">
+        <h1 class="title" data-aos="fade-up" data-aos-duration="1000">Recent Works</h1>
+        <div class="box-container">
+          <div class="box" data-aos="fade-in" data-aos-duration="2000">
+            <a href="./portraits.html"
+              ><img src="../img/p1.png" alt="" />
+              <h3>Portraits</h3></a
+            >
+          </div>
+          <div class="box" data-aos="fade-in" data-aos-duration="2000">
+            <a href="./places.html"
+              ><img src="../img/p2.png" alt="" />
+              <h3>Places</h3></a
+            >
+          </div>
+          <div class="box" data-aos="fade-in" data-aos-duration="2000">
+            <a href="./fashion.html"
+              ><img src="../img/p3.png" alt="" />
+              <h3>Fashion</h3></a
+            >
+          </div>
+        </div>
+      </div>
+      <footer id="footer-demo">
+        <page-footer></page-footer>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init(
+      );
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
