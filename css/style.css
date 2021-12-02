@@ -150,7 +150,6 @@ footer p a:hover {
   padding: 2rem 5rem;
   grid-template-columns: repeat(2, 50%);
   column-gap: 3rem;
-  row-gap: 1.5rem;
   align-self: flex-start;
 }
 .portraits .box-container .box img,
